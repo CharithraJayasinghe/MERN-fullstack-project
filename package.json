@@ -1,0 +1,26 @@
+{
+  "name": "Library-Management-System",
+  "version": "1.0.0",
+  "description": "Library management system API",
+  "main": "app.js",
+  "author": "Charithra Jayasinghe",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pino": "^8.6.1",
+    "pino-pretty": "^9.1.1"
+  }
+}
